@@ -2,8 +2,10 @@ $border-color: rgb(233, 233, 233);
 $basic-bg-color: rgb(255, 255, 255);
 
 .flexbox {
+  display: flex;
   &__between {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 }
